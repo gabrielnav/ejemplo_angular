@@ -2,9 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
+  template: '<h1>Entregable 1</h1>',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ejemplo_angular';
+  title = 'Desafio 1 - Clase 2';
+
+  constructor(){
+    this.title = 'Demostracion Componentes';
+  }
 }
