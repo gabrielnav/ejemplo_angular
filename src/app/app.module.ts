@@ -6,7 +6,6 @@ import { ListaComponent } from './components/lista/lista.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import { StudentComponent } from './components/student/student.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { StudentComponent } from './components/student/student.component';
     LoginComponent,
     NavbarComponent,
     ToolbarComponent,
-    StudentComponent
+    
   ],
   imports: [
     BrowserModule
