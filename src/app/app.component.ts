@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '<h1>Entregable 1</h1>',
+  template: '<h1>KloverCode</h1>',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
